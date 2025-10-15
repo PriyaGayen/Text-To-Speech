@@ -1,0 +1,123 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+   background-color: #F3F4F6;
+}
+
+.container{
+    width:90%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1E293B;
+    color: E2E8F0;
+    border-radius: 0.5rem;
+}
+.header h2{
+   text-align: center;
+    margin-bottom: 15px;
+    color: #60A5FA;
+   
+
+}
+.text-control{
+    position: relative;
+    background-color: rgba(30,30,30,0.6); 
+     backdrop-filter: blur(10px);
+     border-radius: 20px;
+     margin-bottom: 10px;
+     padding: 20px 10px 20px 10px;
+}
+.text-control textarea{
+    width:100%;
+    border-radius: 0.5rem;
+    height: 120px;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #334155;
+    color: #E2E8F0;
+   border:none;
+   outline: none;
+}
+.text-control .icon1,.text-control .icon2{
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    
+}
+.text-control .icon1{left: 20px; top:110px}
+.text-control .icon2{right: 20px; top:110px}
+.text-control .icon1:hover{
+ color: #3498db;
+}
+.text-control .icon2:hover{
+ color: #ff4d4d;
+}
+.voice-control{
+    
+    background-color: rgba(30,30,30,0.6); 
+     backdrop-filter: blur(10px);
+     border-radius: 20px;
+     margin-bottom: 10px;
+     padding: 20px 10px 20px 10px;
+     
+        
+}
+.voice-control select{
+    width: 100%;
+     border-radius: 0.5rem;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+ background: rgba(255,255,255,0.1);
+  color: #fff;
+}
+.slider-rows {
+    display: flex;
+  flex-wrap:wrap ;
+  width: 100%;
+  gap:10px;
+   
+}
+.slider-control {
+    display: flex;           /* label + slider in one row */
+    align-items: center;
+    flex: 1;                 /* each slider-control takes equal space */
+    min-width: 100px;        /* prevent shrinking too small */
+}
+.slider-control label{
+    width: 50px;
+    color: #fff;
+      white-space: nowrap;  
+      padding: 10px;
+      margin-right:20px;
+      font-size: 17px;
+      align-items: center;
+      text-align: center;
+   
+}
+.slider-control input[type="range"]{
+    flex:1; /* slider fills remaining space */
+    /* padding-left: 10px; */
+    margin-right: 15px;
+    margin-left: 20px;
+    accent-color: #3b82f6;
+}
+button{
+    width:15%;;
+    border-radius: 0.5rem;
+    font-weight: 1000;
+    height: 30px;
+    margin-left:45%;
+    margin-top: 10px;
+    background-color: #3B82F6;
+  color: #fff;
+}
+button:hover{
+      background-color: #2563EB;
+}

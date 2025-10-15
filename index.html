@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaktify</title>
+   <link rel="stylesheet" href="style.css">
+    <!-- Poppins Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>SPEAKTIFY</h2>
+        </div>
+        <div class="text-control">
+           <textarea id="text" placeholder="Type something..." rows="5" cols="30"></textarea>
+            <span class="icon1"><i class="fa-solid fa-copy"></i></span>
+            <span class="icon2"><i class="fa-solid fa-trash-can-arrow-up"></i></span>
+          
+        </div>
+
+     <div class="voice-control">
+            <select id="voice-lang">dnsnfnjsdnfj</select>
+        <div class="sliders-row">
+          <div class="slider-control">
+            <label for="speed">Speed</label>
+            <input type="range" id="speed">
+          </div>
+
+           <div class="slider-control">
+            <label for="pitch">Pitch</label>
+            <input type="range" id="pitch">
+          </div>
+
+         <div class="slider-control">
+            <label for="volume">Volume</label>
+            <input type="range" id="volume">
+          </div>
+        </div>
+    </div>
+    <button>Play</button>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>
