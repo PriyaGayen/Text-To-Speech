@@ -6,9 +6,19 @@
 }
 body{
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-   background-color: #F3F4F6;
+   /* background-color: #F3F4F6; */
 }
-
+#voice-lang::-webkit-scrollbar-track {
+    background: #333;   /* dark background */
+}
+#voice-lang::-webkit-scrollbar-thumb {
+    background-color: #555;   /* thumb color */
+    border-radius: 5px;
+}
+#voice-lang{
+    background: #333;
+    color:#fff;
+}
 .container{
     width:90%;
     max-width: 500px;
